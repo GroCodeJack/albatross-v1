@@ -29,34 +29,34 @@ To get started with this project, you'll need to have [Node.js](https://nodejs.o
 
 This project uses Turborepo to manage tasks. Here are some common commands you might use:
 
--   **Build all apps and packages:**
+- **Build all apps and packages:**
 
-    ```bash
-    pnpm build
-    ```
+  ```bash
+  pnpm build
+  ```
 
--   **Start the development server for the API:**
+- **Start the development server for the API:**
 
-    ```bash
-    pnpm dev --filter=api
-    ```
+  ```bash
+  pnpm dev --filter=api
+  ```
 
--   **Run tests:**
+- **Run tests:**
 
-    ```bash
-    pnpm test
-    ```
+  ```bash
+  pnpm test
+  ```
 
--   **Lint all code:**
+- **Lint all code:**
 
-    ```bash
-    pnpm lint
-    ```
+  ```bash
+  pnpm lint
+  ```
 
 ## What's Set Up So Far
 
--   **Monorepo**: The project is structured as a monorepo using pnpm workspaces and Turborepo.
--   **API Application**: A basic API application exists in `apps/api`.
--   **TypeScript**: The project is set up to use TypeScript.
--   **Code Quality**: ESLint, Prettier, and commit linting are configured to ensure code quality and consistency.
--   **CI/CD**: A continuous integration pipeline is set up with GitHub Actions in `.github/workflows/ci.yml` to automatically run tests and linting on pushes and pull requests.
+- **Monorepo**: The project is structured as a monorepo using pnpm workspaces and Turborepo.
+- **API Application**: A basic API application exists in `apps/api`.
+- **TypeScript**: The project is set up to use TypeScript.
+- **Code Quality**: ESLint, Prettier, and commit linting are configured to ensure code quality and consistency.
+- **CI/CD**: A continuous integration pipeline is set up with GitHub Actions in `.github/workflows/ci.yml` to automatically run tests and linting on pushes and pull requests.
